@@ -9,6 +9,7 @@ Google Trends Scraper is an Apify Actor that extracts Google Trends data for any
 ## Quick facts
 
 - One row per keyword: the 0–100 timeline with dates, trend direction and change %, peak date, a one-sentence summary, interest by country / state / city, and top and rising related queries with growth % and Breakout flags.
+- Migrating from pytrends? The open-source pytrends-cloud package (github.com/retracn/pytrends-cloud) keeps pytrends' TrendReq interface and runs on this Actor: change one import, no more 429 errors.
 - Trending now for any country: search volume, growth %, start time, related searches and news articles; Only new trends mode turns scheduled runs into alerts.
 - Compare up to 5 terms like Google Trends, or any number of terms on one scale (rescaled through a shared anchor term).
 - Every Google Trends option: any country or subregion, past hour to 2004–present or custom dates, category, and web / image / news / YouTube / Shopping search; input as keywords, Google Trends URLs or a Google Sheet.
