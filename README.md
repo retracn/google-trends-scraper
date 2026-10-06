@@ -15,6 +15,7 @@ Google Trends Scraper is an Apify Actor that extracts Google Trends data for any
 - Every Google Trends option: any country or subregion, past hour to 2004–present or custom dates, category, and web / image / news / YouTube / Shopping search; input as keywords, Google Trends URLs or a Google Sheet.
 - Price: $1 per 1,000 keyword reports and $0.50 per 1,000 trending searches on the Free plan (lower on paid plans); keywords with too little search volume are free. Apify's free $5 monthly credit covers about 5,000 keyword reports.
 - Same input fields as apify/google-trends-scraper, and every row also includes that Actor's output fields.
+- Node.js? The open-source google-trends-api-cloud package (github.com/retracn/google-trends-api-cloud) keeps the google-trends-api npm API and JSON, runs on this Actor, and makes dailyTrends and realTimeTrends work again.
 
 ## Example input
 
